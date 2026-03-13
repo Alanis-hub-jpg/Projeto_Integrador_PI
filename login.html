@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- favicon usando a imagem Chapéu_login.jpg -->
+    <link rel="icon" type="image/jpeg" href="Chapéu_login.jpg">
+    <!-- estilo para centralização vertical/horizontal -->
+    <link rel="stylesheet" href="estilo_login.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="chapéu_principal.jpg" alt="Chapéu" class="logo">
+        <h1>Login</h1>
+        <br>
+        <br>
+        <form action="/login" method="POST">
+            <label for="username">Usuário:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
