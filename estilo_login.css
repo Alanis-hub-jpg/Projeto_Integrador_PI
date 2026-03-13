@@ -23,3 +23,9 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+h3 {
+    font-style: normal;
+    color: gray;
+
+}
